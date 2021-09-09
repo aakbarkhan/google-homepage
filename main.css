@@ -1,6 +1,54 @@
+/* License: none (public domain)
+*/ 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* .... */
+
 
 body {
-    background-color: rgb(228, 235, 235);
+    background-color: #FFFFFF;
     display: block;
 }
 
@@ -10,19 +58,70 @@ body {
     text-align: center;
     margin-top: 100px;
 }
-.search {
+#search {
     display: block;
     text-align: center;
-    
+       
+}
+input {
+  
+  border-radius: 60px;
+  width: 500px;
+  height: 40px;
+  border: 1px solid rgb(216, 198, 170);
+  margin: 0;
+  padding: 0;
+  outline: rgb(87, 184, 92);
+  color: rgba(0,0,0,.87);
+  font-size: large;
+  
 }
 
 
 nav {
-  border-bottom:2px solid black;
-  height:60px;
+    height:60px;
 }
-  #right{float:right;}
-  #left{float:left;}
-  a :hover {
+#right{
+  float:right;
+  margin-right: 30px;
+  margin-top: 20px;
+  
+}
+#left{
+  float:left;
+  margin-top: 20px;
+}
+a  {
     color: none;
+    text-decoration: none;
+    color: rgb(122,68,69);
+    margin: 10px;
+  }
+  .btn {
+    color: rgba(255, 255, 255, 0.986);
+    border-radius: 3px;
+    height: 34px;
+    width: 70px;
+    background-color: rgb(68,132,242);
+    margin-left: 5px;
+  }
+  .two-btn {
+    text-align: center;
+  }
+
+  footer {
+    background-color: rgb(153, 147, 138);
+    position : absolute;
+    width: 100%;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+  }
+  .footer-right {
+    float: right;
+    margin-top: 10px;
+  }
+  .footer-left {
+    float: left;
+    margin-top: 10px;
   }
