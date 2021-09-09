@@ -1,0 +1,28 @@
+
+body {
+    background-color: rgb(228, 235, 235);
+    display: block;
+}
+
+
+.google_img {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+.search {
+    display: block;
+    text-align: center;
+    
+}
+
+
+nav {
+  border-bottom:2px solid black;
+  height:60px;
+}
+  #right{float:right;}
+  #left{float:left;}
+  a :hover {
+    color: none;
+  }
